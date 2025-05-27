@@ -1,8 +1,8 @@
 services:
   stalwart-mail:
     build:
-          context: .
-          dockerfile: Dockerfile
+      context: .
+      dockerfile: Dockerfile
     ports:
       - "443"    # HTTPS
       - "8080"   # HTTP API
